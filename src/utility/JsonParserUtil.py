@@ -1,7 +1,7 @@
 import os, json, asyncio
 from time import perf_counter, strftime, gmtime
 
-from src.util import filepath
+from src.utility import filepath
 
 
 class JsonParser:
@@ -22,8 +22,8 @@ class JsonParser:
 
     def url_parser_sync(self, df):
         for item in df.values():
-            if not isinstance(item, dict):
-                if item:
+            if not isinstance(item, dict): # nested dictionary - the innermost level will not have dict as a value
+                if item: # if that innermost level isn't empty
                     self.source_urls.append(item)
             else:
                 self.url_parser_sync(item)

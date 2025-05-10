@@ -4,7 +4,6 @@ import json
 from feedparser import parse
 
 
-
 # TODO: Testing if title & description are present. Get more reliable news sources than bbc
 
 class GetNewsBulletIn:
@@ -20,7 +19,6 @@ class GetNewsBulletIn:
         :return:
         """
         pass
-
 
     def fetch_news(self):
         """
