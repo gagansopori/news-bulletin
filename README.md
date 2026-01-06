@@ -8,6 +8,7 @@ bullet-in brings news to inform, not instigate. It uses prime-time style headlin
 sources and then passed through multiple layers of AI to detect & remove any bias from it without impacting its context.
 
 ## High Level Architecture
+[![Architecture](./bulletin.png)](bulletin.png)
 
 ## Installation
  * Python 3+
