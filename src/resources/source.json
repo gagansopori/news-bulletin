@@ -1,0 +1,41 @@
+{
+  "top-stories": {
+    "entertainment": {
+      "elle": "https://www.elle.com/rss/all.xml",
+      "et": "https://www.etonline.com/news/rss",
+      "gq": "https://www.gq.com/feed/rss",
+      "vogue": "https://www.vogue.com/feed/rss",
+      "avn": "https://avn.com/feed/articles/video.rss",
+      "xbiz": "https://www.xbiz.com/rss/news/all.xml"
+//      "adult": {
+//        "avn": {},
+//        "xbiz": {}
+//      },
+//      "culture": {},
+//      "fashion": {},
+//      "lifestyle": {},
+//      "health-beauty": {},
+//      "shopping": {},
+//      "tv-films": {},
+//      "events": {}
+    },
+    "finance": {},
+    "news": {
+      "cnn": "http://rss.cnn.com/rss/edition_world.rss",
+      "fox": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "nytimes": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "npr": "https://feeds.npr.org/1004/rss.xml",
+      "bbc": "https://feeds.bbci.co.uk/news/rss.xml"
+    },
+    "politics": {},
+    "sports": {},
+    "technology": {
+      "verge": "http://theverge.com/rss/index.xml",
+      "wired": ""
+    },
+    "weather": {
+      "weather-channel":
+    },
+    "world": {}
+  }
+}

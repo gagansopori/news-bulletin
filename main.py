@@ -1,4 +1,4 @@
-from src.util.NewsBulletinUtils import NewsBulletinUtils
+from src.utility.NewsBulletinUtils import NewsBulletinUtils
 
 
 def main():
